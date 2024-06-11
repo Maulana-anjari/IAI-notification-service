@@ -19,7 +19,8 @@ const notifyUsers = async () => {
         // gausah pake dulu, syulit
         // await sendEmail(user.email, 'Pollution Alert', message);
         // await sendWhatsApp(user.phone, message);
-        await sendSMS(user.phone, message);
+        // await sendSMS(user.phoneNumber, message);
+        await sendSMS("62895619386814", message);
       }
     }
   } catch (error) {

@@ -35,7 +35,7 @@ const readUsersFromSpreadsheet = async () => {
   const headers = rows.shift(); // Ambil header
   return rows.map(row => ({
     name: row[headers.indexOf('Nama')],
-    phone: row[headers.indexOf('Nomor HP (628...)')],
+    phoneNumber: row[headers.indexOf('Nomor HP (628...)')],
     email: row[headers.indexOf('Email Aktif')],
   }));
 };

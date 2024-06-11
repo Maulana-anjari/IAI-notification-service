@@ -49,5 +49,5 @@ connectDB(() => {
 });
 
 // Schedule notification to run every 30 minutes
-const notificationJob = new cron.CronJob('*/30 * * * *', notifyUsers);
+const notificationJob = new cron.CronJob('*/5 * * * *', notifyUsers);
 notificationJob.start();

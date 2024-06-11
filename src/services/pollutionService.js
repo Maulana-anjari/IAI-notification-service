@@ -45,7 +45,7 @@ const checkPollutionLevels = () => {
 };
 
 // Schedule to fetch data every half of hour
-const job = new cron.CronJob('*/30 * * * *', generateRandomData);
+const job = new cron.CronJob('*/5 * * * *', generateRandomData);
 job.start();
 
 export {
