@@ -1,0 +1,3 @@
+GET Get nearest city data (GPS coordinates)
+http://api.airvisual.com/v2/nearest_city?lat={{LATITUDE}}&lon={{LONGITUDE}}&key={{YOUR_API_KEY}}
+GSP - Balairung: lat: -7.769718, lon: 110.377980

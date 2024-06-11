@@ -1,0 +1,33 @@
+{
+  "name": "iai-kelompok-besar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-spreadsheet": "^4.1.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.4.1",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.13",
+    "read-excel-file": "^5.8.1",
+    "twilio": "^5.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
